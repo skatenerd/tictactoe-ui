@@ -18,6 +18,7 @@
 
   [:wide-container
   [:button {:text "Start game"
-            :on-mouse-clicked (fn [e] (open-scene (production e) "board_view" "main" {}))}]]
+            :players "start_game_button"}]]
+
 
 ]

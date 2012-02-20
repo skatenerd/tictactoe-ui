@@ -1,7 +1,8 @@
 (let
   [set-to-x (fn [e]
     ;(style= (prop e) "background-color" "#993344")
-    (text= (prop e) "X"))]
+    (text= (prop e) @production/current-player)
+    (reset! production/current-player "O"))]
   [:body
  [:wide-container [:title {:text "You are playing Tic Tac Toe"}]]
  [:board
