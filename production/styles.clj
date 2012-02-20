@@ -1,11 +1,15 @@
-["box"
+["ttt-square"
  :height 100
  :width 100
  :vertical-alignment :top
- :font-size 14
+ :font-size 80
+ :horizontal-alignment :center
  :background-color "#666666"
  :border-color "#000000"
  :border-width 1]
+
+;["letter-square"
+; :horizontal-align]
 
 ;(def dark-blue "#09325D")
 
